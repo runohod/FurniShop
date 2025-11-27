@@ -40,6 +40,7 @@
   font-weight: 500;
   font-size: 16px;
   background: none;
+  text-decoration: underline;
 }
 
 .slider_ctrelka {
@@ -51,9 +52,31 @@
   gap: 20px;
   padding-top: 70px;
   padding-bottom: 70px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.slide-item {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
 }
 
 .slider_imgs {
   max-width: 265px;
   max-height: 400px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  display: block;
+}
+
+.slide-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-white);
+  font-size: 26px;
+  font-weight: 600;
 }
