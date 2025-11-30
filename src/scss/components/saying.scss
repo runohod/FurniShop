@@ -1,0 +1,42 @@
+.saying {
+  display: flex;
+  align-items: center;
+  min-height: 480px;
+}
+
+.saying_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.saying_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.saying_title {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 635px;
+}
+
+.saying_description {
+  padding-top: 29px;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 570px;
+}
+
+.saying_img {
+  display: flex;
+  align-items: center;
+}
+
+.saying_img_1 {
+  max-width: 562px;
+  max-height: 340px;
+  border-radius: 5px;
+}
