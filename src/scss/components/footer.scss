@@ -1,5 +1,5 @@
 .footer {
-  height: 513px;
+  // height: 513px;
   background-color: var(--color-text);
   //   position: relative;
 }
@@ -28,6 +28,7 @@ hr {
   display: flex;
   justify-content: space-between;
   color: var(--color-white);
+  padding-bottom: 50px;
 }
 
 // .footer-column {
@@ -44,16 +45,24 @@ hr {
 .footer-column__list {
   font-weight: 400;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .footer-bottom {
   font-weight: 400;
   font-size: 14px;
   color: var(--color-white);
+  padding-top: 20px;
   padding-bottom: 20px;
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
 }

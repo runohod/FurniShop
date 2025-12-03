@@ -62,29 +62,6 @@
   gap: 24px;
 }
 
-.saying_img_3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  padding: 13px;
-  background-color: var(--color-white);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-.saying_img_4 {
-  background-color: var(--color-bg_static);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  padding: 13px;
-}
-
 .saying_img {
   display: flex;
   align-items: center;
@@ -94,4 +71,33 @@
   max-width: 562px;
   max-height: 340px;
   border-radius: 5px;
+}
+
+.slide-saying {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-top: 31px;
+}
+
+.saying-btn-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: white;
+}
+
+.saying-btn-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: #286f6c;
 }

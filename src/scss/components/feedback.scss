@@ -42,7 +42,10 @@
   width: 384px;
   height: 60px;
   border-radius: 8px;
-  text-align: center;
+  padding-left: 24px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .feedback__button {
@@ -51,4 +54,7 @@
   border-radius: 8px;
   background-color: var(--color-text);
   color: var(--color-white);
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
 }

@@ -84,7 +84,8 @@
 
 .produt_plus {
   position: absolute;
-  top: 252px;
+  // top: 252px;
+  bottom: 100px;
   right: 10px;
   width: 30px;
   height: 30px;
@@ -92,12 +93,47 @@
   background-color: #d9d9d9;
 }
 
-.paggination {
+.navigation {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 30px;
 }
 
-.produt_paggination {
-  width: 270px;
-  padding-bottom: 70px;
+.nav-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #23262f;
+  border-color: #23262f;
+}
+
+.nav-btn:hover svg path {
+  stroke: white;
+}
+
+.dots {
+  display: flex;
+  gap: 15px;
+}
+
+.active {
+  background-color: #23262f;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #23262f;
 }
