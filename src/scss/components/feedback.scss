@@ -46,6 +46,10 @@
   border: none;
   font-weight: 400;
   font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .feedback__button {
