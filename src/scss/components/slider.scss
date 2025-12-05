@@ -10,9 +10,32 @@
   gap: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .slider_wrapper {
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+  }
+}
+
 .slider_text {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .slider_text {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .slider_text {
+    display: flex;
+    gap: 20px;
+  }
 }
 
 .slider_subtitle {
@@ -22,11 +45,53 @@
   max-width: 219px;
 }
 
+@media screen and (max-width: 1200px) {
+  .slider_subtitle {
+    font-size: 35px;
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider_subtitle {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .slider_subtitle {
+    font-size: 24px;
+    max-width: 124px;
+  }
+}
+
 .slider_description {
   font-weight: 400;
   font-size: 16px;
   padding-top: 89px;
   max-width: 245px;
+}
+
+@media screen and (max-width: 1200px) {
+  .slider_description {
+    font-size: 14px;
+    max-width: 245px;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider_description {
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .slider_description {
+    max-width: 206px;
+  }
 }
 
 .slider_button {
@@ -36,11 +101,23 @@
   gap: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .slider_button {
+    display: none;
+  }
+}
+
 .slider_check {
   font-weight: 500;
   font-size: 16px;
   background: none;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .slider_check {
+    font-size: 14px;
+  }
 }
 
 .slider_ctrelka {
@@ -56,6 +133,12 @@
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
   cursor: grab;
+}
+
+@media screen and (max-width: 768px) {
+  .slider_img {
+    padding-top: 25px;
+  }
 }
 
 .slider_img:active {
@@ -77,6 +160,13 @@
   border-radius: 5px;
 }
 
+@media screen and (max-width: 576px) {
+  .slider_imgs {
+    max-width: 198px;
+    max-height: 299px;
+  }
+}
+
 .slide-caption {
   position: absolute;
   bottom: 20px;
@@ -85,4 +175,10 @@
   color: var(--color-white);
   font-size: 26px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 576px) {
+  .slide-caption {
+    font-size: 18px;
+  }
 }
