@@ -216,12 +216,30 @@
   max-width: 112px;
 }
 
+@media screen and (max-width: 768px) {
+  .statistica_field {
+    max-width: 100px;
+  }
+}
+
 .statistica_h3 {
   font-weight: 600;
   font-size: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  .statistica_h3 {
+    font-size: 24px;
+  }
+}
+
 .statistica_text {
   font-weight: 400;
   font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .statistica_text {
+    font-size: 14px;
+  }
 }
