@@ -10,6 +10,32 @@
   background-position: center;
 }
 
+@media screen and (max-width: 768px) {
+  .header_logo svg {
+    width: 116px;
+    height: 38px;
+  }
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .burger {
+    display: flex;
+  }
+}
+
+.header-burger {
+  padding-top: 37px;
+}
+
+.header-burger img {
+  width: 24px;
+  height: 24px;
+}
+
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -22,10 +48,22 @@
   max-height: 57px;
 }
 
+@media screen and (max-width: 768px) {
+  .header_logo {
+    padding-top: 30px;
+  }
+}
+
 .header_nav_list {
   display: flex;
   gap: 64px;
   padding-top: 44px;
+}
+
+@media screen and (max-width: 768px) {
+  .header_nav_list {
+    display: none;
+  }
 }
 
 .header_nav-home {
@@ -57,12 +95,31 @@
   max-width: 888px;
 }
 
+@media screen and (max-width: 768px) {
+  .hero_title {
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 190px;
+    max-width: 290px;
+  }
+}
+
 .hero_description {
   font-weight: 400;
   font-size: 20px;
   padding-top: 30px;
   padding-bottom: 64px;
   max-width: 627px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero_description {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 293px;
+  }
 }
 
 .hero_button {
@@ -80,11 +137,26 @@
   font-size: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .hero_button {
+    max-width: 138px;
+    height: 39px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+}
+
 .statistica {
   position: relative;
   margin-top: -100px;
   z-index: 1;
   padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .statistica {
+    margin-top: -180px;
+  }
 }
 
 .statistica-wrapper {
@@ -96,6 +168,44 @@
   background-color: var(--color-bg_static);
   border-radius: 20px;
   padding: 38px 111px;
+}
+
+@media screen and (max-width: 992px) {
+  .statistica-wrapper {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .statistica-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 30px 50px;
+    justify-content: center;
+    max-width: 340px;
+  }
+
+  .statistica_field:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .statistica_field:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .statistica_field:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .statistica_field:nth-child(4) {
+    grid-column: 2;
+    grid-row: 2;
+  }
 }
 
 .statistica_field {
