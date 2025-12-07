@@ -64,6 +64,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top: 50px;
+    gap: 20px;
   }
 }
 
@@ -206,12 +207,12 @@
   }
 }
 
-// @media screen and (max-width: 576px) {
-//   .nav-btn {
-//     width: 25px;
-//     height: 25px;
-//   }
-// }
+@media screen and (max-width: 576px) {
+  .nav-btn {
+    width: 24px;
+    height: 24px;
+  }
+}
 
 .nav-btn:hover {
   background-color: #23262f;

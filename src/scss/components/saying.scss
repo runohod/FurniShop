@@ -26,8 +26,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .saying_left{
+  .saying_left {
     padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .saying_left {
+    padding-bottom: 33px;
   }
 }
 
@@ -43,10 +49,22 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .saying_title {
+    font-size: 24px;
+  }
+}
+
 .saying-person {
   display: flex;
   gap: 20px;
   padding-top: 35px;
+}
+
+@media screen and (max-width: 576px) {
+  .saying-person {
+    padding-top: 33px;
+  }
 }
 
 .saying_img_2 {
@@ -58,6 +76,13 @@
   .saying_img_2 {
     width: 60px;
     height: 60px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .saying_img_2 {
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -76,9 +101,16 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .saying-name {
+    font-size: 14px;
+  }
+}
+
 .saying-post {
   font-weight: 400;
   font-size: 14px;
+  color: #919297;
 }
 
 @media screen and (max-width: 992px) {
@@ -87,8 +119,14 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .saying-post {
+    font-size: 10px;
+  }
+}
+
 .saying_description {
-  padding-top: 29px;
+  padding-top: 28px;
   font-weight: 400;
   font-size: 20px;
   max-width: 570px;
@@ -96,7 +134,7 @@
 
 @media screen and (max-width: 992px) {
   .saying_description {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -117,17 +155,24 @@
   border-radius: 5px;
 }
 
-@media screen and (max-width: 768px) {
-  .saying_img_1 {
-    padding-bottom: 50px;
-  }
-}
+// @media screen and (max-width: 576px) {
+//   .saying_img_1 {
+//     max-width: 339px;
+//     max-height: 205px;
+//   }
+// }
 
 .slide-saying {
   display: flex;
   align-items: center;
   gap: 24px;
   padding-top: 31px;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-saying {
+    display: none;
+  }
 }
 
 .saying-btn-left {
@@ -163,5 +208,21 @@
   .saying-btn-right {
     width: 40px;
     height: 40px;
+  }
+}
+
+.slide-saying-mb {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-saying-mb {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin: 0 auto;
   }
 }
