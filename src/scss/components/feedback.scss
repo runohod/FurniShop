@@ -103,10 +103,10 @@
 @media screen and (max-width: 576px) {
   .feedback__form-input {
     max-width: 220px;
-        width: 100%;
-    max-width: none; /* убираем ограничение */
-    flex: 1; /* заставляем растягиваться */
-    min-width: 0; /* важно для flex-shrink */
+    width: 100%;
+    max-width: none;
+    flex: 1;
+    min-width: 0;
     height: 40px;
     font-size: 14px;
   }
