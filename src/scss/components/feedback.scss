@@ -7,6 +7,15 @@
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .feedback {
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    background-attachment: scroll;
+  }
+}
+
 .feedback_wrapper {
   display: flex;
   flex-direction: column;
@@ -18,11 +27,33 @@
   padding-top: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  .feedback_form {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .feedback_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .feedback-title {
   font-weight: 600;
   font-size: 40px;
   color: var(--color-white);
   max-width: 349px;
+}
+
+@media screen and (max-width: 576px) {
+  .feedback-title {
+    text-align: center;
+    font-size: 24px;
+  }
 }
 
 .feedback-description {
@@ -33,9 +64,26 @@
   padding-bottom: 40px;
 }
 
+@media screen and (max-width: 576px) {
+  .feedback-description {
+    font-size: 14px;
+  }
+}
+
 .feedback__form-input-wrapper {
   display: flex;
   gap: 22px;
+}
+
+@media screen and (max-width: 576px) {
+  .feedback__form-input-wrapper {
+    // flex-wrap: wrap;
+    // gap: 15px;
+    width: 100%;
+    max-width: 365px; /* или 100% если нужно на весь экран */
+    gap: 15px;
+    justify-content: space-between;
+  }
 }
 
 .feedback__form-input {
@@ -52,6 +100,18 @@
   appearance: none;
 }
 
+@media screen and (max-width: 576px) {
+  .feedback__form-input {
+    max-width: 220px;
+        width: 100%;
+    max-width: none; /* убираем ограничение */
+    flex: 1; /* заставляем растягиваться */
+    min-width: 0; /* важно для flex-shrink */
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
 .feedback__button {
   width: 152px;
   height: 60px;
@@ -61,4 +121,12 @@
   border: none;
   font-weight: 600;
   font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .feedback__button {
+    max-width: 105px;
+    height: 40px;
+    font-size: 12px;
+  }
 }
