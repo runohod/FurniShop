@@ -11,6 +11,13 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1200px) {
+  .furniture_wrapper {
+    display: flex;
+    gap: 25px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .furniture_wrapper {
     display: flex;
@@ -64,20 +71,24 @@
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .furniture_img {
+    width: 100%;
+  }
+}
+
 .furniture_img_1 {
-  max-width: 554px;
-  max-height: 399px;
+  // max-width: 554px;
+  // max-height: 399px;
+  width: 100%;
   border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
   .furniture_img_1 {
     padding-bottom: 90px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .furniture_img_1 {
-    max-width: 340px;
+    max-width: unset;
+    max-height: unset;
+    width: 100%;
   }
 }

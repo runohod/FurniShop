@@ -98,6 +98,15 @@
 @media screen and (max-width: 768px) {
   .hero_title {
     font-weight: 600;
+    font-size: 30px;
+    padding-top: 190px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero_title {
+    font-weight: 600;
     font-size: 24px;
     padding-top: 190px;
     max-width: 290px;
@@ -113,6 +122,16 @@
 }
 
 @media screen and (max-width: 768px) {
+  .hero_description {
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 390px;
+  }
+}
+
+@media screen and (max-width: 576px) {
   .hero_description {
     font-weight: 400;
     font-size: 14px;
@@ -141,6 +160,15 @@
   .hero_button {
     max-width: 138px;
     height: 39px;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero_button {
+    max-width: 138px;
+    height: 39px;
     font-size: 14px;
     border-radius: 5px;
   }
@@ -155,7 +183,7 @@
 
 @media screen and (max-width: 768px) {
   .statistica {
-    margin-top: -180px;
+    margin-top: -135px;
   }
 }
 
@@ -177,6 +205,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .statistica-wrapper {
+    display: flex;
+    gap: 35px;
+    padding: 38px 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
   .statistica-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;

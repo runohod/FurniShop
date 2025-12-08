@@ -51,6 +51,12 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .slider_subtitle {
+    min-width: 172px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .slider_subtitle {
     padding-top: 0px;

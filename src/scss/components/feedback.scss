@@ -23,6 +23,18 @@
   padding-right: 122px;
 }
 
+// @media screen and (max-width: 768px) {
+//   .feedback_wrapper {
+//     padding-right: 0px;
+//   }
+// }
+
+@media screen and (max-width: 576px) {
+  .feedback_wrapper {
+    padding-right: 0px;
+  }
+}
+
 .feedback_form {
   padding-top: 100px;
 }
@@ -30,7 +42,6 @@
 @media screen and (max-width: 768px) {
   .feedback_form {
     width: 100%;
-    max-width: 500px;
   }
 }
 
@@ -39,6 +50,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 25px;
   }
 }
 
@@ -80,9 +92,17 @@
     // flex-wrap: wrap;
     // gap: 15px;
     width: 100%;
-    max-width: 365px; /* или 100% если нужно на весь экран */
+    max-width: 365px;
     gap: 15px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .feedback__form-input-wrapper {
+    width: 100%;
     justify-content: space-between;
+    flex-direction: column;
+    max-width: 100%;
   }
 }
 
@@ -109,6 +129,7 @@
     min-width: 0;
     height: 40px;
     font-size: 14px;
+    min-height: 40px;
   }
 }
 
@@ -128,5 +149,14 @@
     max-width: 105px;
     height: 40px;
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .feedback__button {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 100%;
   }
 }
