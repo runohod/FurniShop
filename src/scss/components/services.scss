@@ -72,21 +72,24 @@
 
 @media screen and (max-width: 1200px) {
   .services_subtitle {
-    font-size: 30px;
+    font-size: 35px;
     max-width: 508px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .services_subtitle {
-    font-size: 24px;
-    max-width: 450px;
+    font-size: 35px;
+    // max-width: 450px;
+    max-width: unset;
   }
 }
 
 @media screen and (max-width: 576px) {
   .services_subtitle {
-    max-width: 340px;
+    // max-width: 340px;
+    max-width: unset;
+    font-size: 24px;
   }
 }
 
@@ -108,7 +111,8 @@
 @media screen and (max-width: 992px) {
   .services_description {
     font-size: 14px;
-    max-width: 340px;
+    // max-width: 340px;
+    max-width: unset;
   }
 }
 
@@ -127,13 +131,15 @@
 
 @media screen and (max-width: 992px) {
   .services__list {
-    max-width: 350px;
+    // max-width: 350px;
+    max-width: unset;
   }
 }
 
 @media screen and (max-width: 576px) {
   .services__list {
-    max-width: 340px;
+    // max-width: 340px;
+    max-width: unset;
   }
 }
 

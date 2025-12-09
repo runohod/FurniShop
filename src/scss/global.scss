@@ -25,6 +25,20 @@ button {
   }
 }
 
+
+.subtitle {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 508px;
+}
+
+@media screen and (max-width: 1200px) {
+  .subtitle {
+    font-size: 30px;
+    max-width: 508px;
+  }
+}
+
 :root {
   --color-white: #ffffff;
   --color-text: #23262f;

@@ -40,7 +40,14 @@
   max-width: 558px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+  .furniture_subtitle {
+    font-size: 35px;
+    max-width: unset;
+  }
+}
+
+@media screen and (max-width: 576px) {
   .furniture_subtitle {
     font-size: 24px;
   }
@@ -50,7 +57,7 @@
   padding-top: 35px;
   font-weight: 400;
   font-size: 20px;
-  max-width: 570px;
+  max-width: unset;
 }
 
 @media screen and (max-width: 992px) {
@@ -78,8 +85,6 @@
 }
 
 .furniture_img_1 {
-  // max-width: 554px;
-  // max-height: 399px;
   width: 100%;
   border-radius: 5px;
 }

@@ -1,5 +1,5 @@
 .feedback {
-  background: url(../../assets/img/bg-feedback.jpg);
+  background: url('../../assets/img/bg-feedback.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,6 +59,12 @@
   font-size: 40px;
   color: var(--color-white);
   max-width: 349px;
+}
+
+@media screen and (max-width: 768px) {
+  .feedback-title {
+    font-size: 35px;
+  }
 }
 
 @media screen and (max-width: 576px) {
