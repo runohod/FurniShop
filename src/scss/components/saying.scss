@@ -39,21 +39,7 @@
 }
 
 .saying_title {
-  font-weight: 600;
-  font-size: 40px;
   max-width: 635px;
-}
-
-@media screen and (max-width: 992px) {
-  .saying_title {
-    font-size: 35px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .saying_title {
-    font-size: 24px;
-  }
 }
 
 .saying-person {

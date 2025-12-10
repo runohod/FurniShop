@@ -25,17 +25,22 @@ button {
   }
 }
 
-
 .subtitle {
   font-weight: 600;
   font-size: 40px;
   max-width: 508px;
+  color: var(--color-text);
 }
 
 @media screen and (max-width: 1200px) {
   .subtitle {
-    font-size: 30px;
-    max-width: 508px;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .subtitle {
+    font-size: 24px;
   }
 }
 

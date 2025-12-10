@@ -35,21 +35,12 @@
 }
 
 .furniture_subtitle {
-  font-weight: 600;
-  font-size: 40px;
   max-width: 558px;
 }
 
 @media screen and (max-width: 992px) {
   .furniture_subtitle {
-    font-size: 35px;
     max-width: unset;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .furniture_subtitle {
-    font-size: 24px;
   }
 }
 
