@@ -176,14 +176,14 @@
 
 .statistica {
   position: relative;
-  margin-top: -100px;
+  margin-top: 65px;
   z-index: 1;
   padding-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
   .statistica {
-    margin-top: -135px;
+    margin-top: 280px;
   }
 }
 
@@ -213,7 +213,7 @@
 }
 
 @media screen and (max-width: 576px) {
-  .statistica-wrapper {
+  .statistica .statistica-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
@@ -221,6 +221,7 @@
     padding: 30px 50px;
     justify-content: center;
     max-width: 340px;
+    margin: 0 auto;
   }
 
   .statistica_field:nth-child(1) {
