@@ -10,11 +10,19 @@
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 576px) {
   .services {
     padding-top: 150px;
   }
 }
+
+
+
+// @media screen and (max-width: 568px) {
+//   .services {
+//     padding-top: 150px;
+//   }
+// }
 
 .services_wrapper {
   display: flex;
